@@ -28,15 +28,15 @@ This project is learn about bike share use in Chicago, New York City, and Washin
 - earliest, most recent, most common year of birth (only available for NYC and Chicago)
 
 ### Files used
-bikeshrre.py
-readme.txt
-chicago.csv
-new_york_city.csv
-washington.csv
+- bikeshrre.py
+- readme.txt
+- chicago.csv
+- new_york_city.csv
+- washington.csv
 
 ### Credits
-https://www.w3schools.com/python/python_operators.asp
-https://www.w3schools.com/python/numpy/default.asp
-https://www.w3schools.com/python/pandas/default.asp
-https://pandas.pydata.org/docs/reference/index.html
+- https://www.w3schools.com/python/python_operators.asp
+- https://www.w3schools.com/python/numpy/default.asp
+- https://www.w3schools.com/python/pandas/default.asp
+- https://pandas.pydata.org/docs/reference/index.html
 
