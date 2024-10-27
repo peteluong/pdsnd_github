@@ -23,12 +23,12 @@ def get_filters():
     # get user input for month (all, january, february, ... , june)
     while month not in list(('january', 'february', 'march', 'april', 'may', 'june', 'all')):
         month = input("Please enter a month (January, February, March, April, May, June or All): ").lower()
-        if month not in list(('january', 'february', 'march', 'april', 'may', 'june', 'all', '1', '2', '3', '4', '5', '6')):
+        if month not in list(('january', 'february', 'march', 'april', 'may', 'june', 'all')):
             print("Invalid input. Please try again.")
     # get user input for day of week (all, monday, tuesday, ... sunday)
     while day not in list(('monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all')):
         day = input("Please enter a day (monday, tuesday, wednesday, thursday, friday, saturday, sunday, all): ").lower()
-        if day not in list(('monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all', '1', '2', '3', '4', '5', '6', '7', '8')):
+        if day not in list(('monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all')):
             print("Invalid input. Please try again.")
     print('-'*40)
     return city, month, day
@@ -134,7 +134,7 @@ def display_raw_data(df):
             print(df.iloc[row_index:row_index + 5])
             row_index += 5
             if row_index >= len(df):
-                print("No more data to display.")
+                print("No more data to display!")
                 break
         elif show_data == 'no':
             break
