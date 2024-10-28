@@ -27,7 +27,7 @@ def get_filters():
             print("Invalid input. Please try again.")
     # get user input for day of week (all, monday, tuesday, ... sunday)
     while day not in list(('monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all')):
-        day = input("Please enter a day (monday, tuesday, wednesday, thursday, friday, saturday, sunday, all): ").lower()
+        day = input("Please enter a day (Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday, All): ").lower()
         if day not in list(('monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all')):
             print("Invalid input. Please try again.")
     print('-'*40)
